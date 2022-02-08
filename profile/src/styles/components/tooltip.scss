@@ -1,0 +1,50 @@
+.tooltip_input_tag {
+  &__colors {
+    padding: 10px 0;
+  }
+
+  &__color, &__icon {
+    border-radius: 50px;
+    cursor: pointer;
+    position: relative;
+  }
+
+  &__color {
+    height: 32px;
+    width: 32px;
+
+    &.selected {
+      &::after {
+        background: url("../assets/img/icons/white-flag.svg") no-repeat center center;
+        background-size: 45%;
+        content: '';
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+      }
+    }
+  }
+
+  &__icons {
+  }
+
+  &__icon {
+    align-items: center;
+    color: $textDark;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    width: 40px;
+
+    &.selected {
+      color: #fff;
+    }
+
+    svg {
+      height: 24px;
+      width: 24px;
+    }
+  }
+}

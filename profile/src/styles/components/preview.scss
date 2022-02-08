@@ -1,0 +1,108 @@
+.preview {
+  height: 100%;
+
+  &__body {
+    height: 100%;
+    line-height: 160%;
+  }
+
+  &__row {
+    height: 100%;
+  }
+
+  &__col {
+    overflow: auto;
+    padding: 40px 24px;
+
+    &-left {
+      height: 100%;
+      padding: 40px;
+    }
+  }
+
+  &__header {
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+    margin-bottom: 24px;
+  }
+
+  &__title {
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  &__subtitle {
+    color: #8d97b0;
+    font-size: 14px;
+  }
+
+  &__description {
+  }
+
+  &__description-title {
+    font-weight: 600;
+  }
+
+  &__description-list {
+    font-size: 12px;
+  }
+
+  &__description-list-item {
+    font-weight: 500;
+    margin-left: 25px;
+    position: relative;
+
+    &::before {
+      background-color: #000;
+      border-radius: 50%;
+      content: '';
+      height: 3px;
+      left: -10px;
+      position: absolute;
+      top: 10px;
+      width: 3px;
+    }
+  }
+}
+
+
+.specifics {
+  font-size: 12px;
+
+  &__block {
+    font-weight: 600;
+    justify-content: space-between;
+  }
+
+  &__name {
+    font-weight: 600;
+  }
+
+  &__list {
+    align-items: center;
+    display: flex;
+    gap: 5px;
+    white-space: nowrap;
+  }
+
+  &__list-item {
+    background-color: $colorSecondaryMain;
+    border-radius: 50px;
+    color: #fff;
+    margin: 0;
+    padding: 0 8px !important;
+    @include hide-world();
+  }
+
+  &__list-item-avatar {
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid #cbd5e2;
+    color: #000;
+    display: inline-flex;
+    line-height: 120%;
+    padding: 2px 5px 2px 3px !important;
+  }
+
+}

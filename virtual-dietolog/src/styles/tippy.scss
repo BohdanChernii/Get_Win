@@ -1,0 +1,97 @@
+.tippy-info {
+  padding: 5px;
+}
+
+.tippy-box[data-theme~='orange'] {
+  text-align: center;
+  background-color: $orange;
+  color: #ffffff;
+  font-size: 14px;
+
+  p {
+    cursor: pointer;
+    padding: 2px 0;
+  }
+}
+
+.tippy-box[data-theme~='orange'][data-placement^='top'] > .tippy-arrow::before {
+  border-top-color: $orange;
+
+}
+
+.tippy-box[data-theme~='orange'][data-placement^='bottom'] > .tippy-arrow::before {
+  border-bottom-color: $orange;
+
+}
+
+.tippy-box[data-theme~='orange'][data-placement^='left'] > .tippy-arrow::before {
+  border-left-color: $orange;
+
+}
+
+.tippy-box[data-theme~='orange'][data-placement^='right'] > .tippy-arrow::before {
+  border-right-color: $orange;
+
+}
+._tippy-button {
+  display: block;
+  font-size: 14px;
+  color: #727486;
+  user-select: none;
+}
+
+.tippy-box[data-theme~='white'] {
+  box-shadow: 0px 1px 16px rgba(106, 106, 137, 0.175153);
+  border-radius: 10px;
+  background-color: #ffffff;
+  color: #323339;
+  font-size: 14px;
+}
+
+.tippy-box[data-theme~='white'][data-placement^='top'] > .tippy-arrow::before {
+  border-top-color: #ffffff;
+}
+
+.tippy-box[data-theme~='white'][data-placement^='bottom'] > .tippy-arrow::before {
+  border-bottom-color: #ffffff;
+
+}
+
+.tippy-box[data-theme~='white'][data-placement^='left'] > .tippy-arrow::before {
+  border-left-color: #ffffff;
+
+}
+
+.tippy-box[data-theme~='white'][data-placement^='right'] > .tippy-arrow::before {
+  border-right-color: #ffffff;
+
+}
+
+
+.tippy-box[data-theme~='grey'] {
+  box-shadow: 0 0 0 1px #EEEEF2;
+  border-radius: 10px;
+  background-color: #FAFAFA;
+  color: #686A7C;
+  //padding: 5px;
+  //font-size: 12px;
+}
+
+.tippy-box[data-theme~='grey'][data-placement^='top'] > .tippy-arrow::before {
+  border-top-color: #EEEEF2;
+}
+
+.tippy-box[data-theme~='grey'][data-placement^='bottom'] > .tippy-arrow::before {
+  border-bottom-color: #EEEEF2;
+}
+
+.tippy-box[data-theme~='grey'][data-placement^='left'] > .tippy-arrow::before {
+  border-left-color: #EEEEF2;
+}
+
+.tippy-box[data-theme~='grey'][data-placement^='right'] > .tippy-arrow::before {
+  border-right-color: #EEEEF2;
+}
+.tippy-content {
+  padding: 0 !important;
+}

@@ -1,0 +1,48 @@
+.app-banner {
+  position: relative;
+  background-color: $colorSecondaryMain;
+  border-radius: 8px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 24px;
+  min-height: 182px;
+
+  &__title {
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+  }
+
+  &__text {
+    display: block;
+    line-height: 180%;
+    margin-bottom: 24px;
+    width: 70%;
+  }
+
+  &__close {
+    display: flex;
+    align-items: center;
+    max-width: 100px;
+    cursor: pointer;
+
+    img {
+      margin-right: 8px;
+    }
+  }
+
+  &__link {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  &__person {
+    position: absolute;
+    right: 10%;
+    bottom: 0;
+  }
+}

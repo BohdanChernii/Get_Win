@@ -1,0 +1,6 @@
+
+### GET request with environment variables
+GET https://prof.world/api/get_vacancies_list/?token=2719f59c3f9f0eca9a49ecc2c4023e3d
+Accept: application/json
+
+### GET request with environment variables

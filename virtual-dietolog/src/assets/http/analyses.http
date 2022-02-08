@@ -1,0 +1,4 @@
+GET https://vn.mh.net.ua/public/api/files_get/?token=eccbc87e4b5ce2fe28308fd9f2a7baf3&dir=analise/
+Accept: application/json
+
+###

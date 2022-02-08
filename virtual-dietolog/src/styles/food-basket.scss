@@ -1,0 +1,96 @@
+.tabs {
+  width: 100%;
+  overflow: hidden;
+
+  &__header {
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    margin: 0 -23px;
+    padding: 24px 0;
+    margin-bottom: 10px;
+  }
+
+  &__item {
+    position: relative;
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0 23px 24px;
+    cursor: pointer;
+  }
+
+  &__name {
+    position: relative;
+    color: #323339;
+    cursor: pointer;
+
+    &.active {
+      font-weight: 600;
+    }
+
+    &:before {
+      content: '';
+      position: absolute;
+      bottom: -5px;
+      left: 0;
+      height: 0;
+      opacity: 0;
+      width: 100%;
+      background: #E9856B;
+      border-radius: 3px;
+      transition: all .1s ease-in;
+    }
+
+    &.active, &:hover {
+      &:before {
+        height: 3px;
+        opacity: 1;
+      }
+    }
+  }
+
+  &__body {
+
+    display: flex;
+    transition: all .3s ease-in-out;
+  }
+}
+
+.tab {
+  &__block {
+    min-height: 250px;
+    padding-left: 1px;
+  }
+
+}
+
+.basket {
+  display: grid;
+  column-gap: 55px;
+
+  &__item {
+    margin-bottom: 24px;
+  }
+
+  &__name {
+    font-size: 1.5rem;
+    color: $orange;
+    margin-bottom: 16px;
+  }
+
+  &__product-name {
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 16px;
+  }
+
+  &__product-block {
+    margin-bottom: 24px;
+  }
+
+  &__cal {
+    font-size: 14px;
+    color: #727486;
+    margin-left: 5px;
+  }
+}

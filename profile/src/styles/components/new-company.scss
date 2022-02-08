@@ -1,0 +1,15 @@
+.new-company {
+  position: relative;
+
+  &__layout {
+    padding: 50px 24px 0;
+    @media (max-height: 768px) {
+      padding-top: 20px;
+    }
+  }
+
+  &__container {
+    max-width: 576px;
+  }
+}
+

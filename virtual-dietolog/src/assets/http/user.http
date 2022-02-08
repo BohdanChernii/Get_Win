@@ -1,0 +1,28 @@
+GET https://vn.mh.net.ua/public/api/login/?user=wwizarding@gmail.com&pass=123
+Content-Type: application/x-www-form-urlencoded
+Accept: application/json
+
+###ruslan.horyn95@gmail.com
+###tzeU5q9KCKqufn3674zrd5
+###
+
+GET https://vn.mh.net.ua/public/api/user_del?email=
+Content-Type: application/x-www-form-urlencoded
+Accept: application/json
+
+###
+POST https://vn.mh.net.ua/public/api/user_update_info/
+Content-Type: application/x-www-form-urlencoded
+Accept: application/json
+
+token=eccbc87e4b5ce2fe28308fd9f2a7baf3&pass=123
+###202cb962ac59075b964b07152d234b70
+
+
+###
+GET https://vn.mh.net.ua/public/api/user_get_info/
+Content-Type: application/x-www-form-urlencoded
+Accept: application/json
+
+token=eccbc87e4b5ce2fe28308fd9f2a7baf3
+###tzeU5q9KCKqufn3674zrd5

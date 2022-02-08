@@ -1,0 +1,203 @@
+.nav {
+  padding: 36px 36px 36px 72px;
+  width: 432px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  &__project-name {
+    font-weight: 700;
+    color: $green;
+    margin-bottom: 15px;
+  }
+
+  &__list {
+    flex: 1 1 auto;
+  }
+
+  &__item {
+  }
+
+  &__name {
+    line-height: 20 / 16 * 100%;
+    padding: 15px 0;
+    color: #686A7C;
+  }
+
+  &__link {
+    position: relative;
+    display: inline-flex;
+    font-weight: 600;
+    padding: 15px 0;
+    width: 100%;
+
+    &::before {
+      content: '';
+      z-index: 2;
+      flex-basis: 24px;
+      height: 24px;
+      margin-right: 27px;
+      background: 0 0 no-repeat;
+    }
+
+    &:hover, &.active {
+      color: $orange;
+    }
+
+    &.personal-information {
+      &::before {
+        background-image: url("../assets/img/icons/personal-information.svg");
+      }
+
+      &:hover, &.active {
+        &::before {
+          background-image: url("../assets/img/icons/personal-information-orange.svg");
+        }
+      }
+    }
+
+    &.questionnaire {
+      &::before {
+        background-image: url("../assets/img/icons/questionnaire.svg");
+      }
+
+      &:hover, &.active {
+        &::before {
+          background-image: url("../assets/img/icons/questionnaire-orange.svg");
+        }
+      }
+    }
+
+    &.target {
+      &::before {
+        background-image: url("../assets/img/icons/target.svg");
+      }
+
+      &:hover, &.active {
+        &::before {
+          background-image: url("../assets/img/icons/target-orange.svg");
+        }
+      }
+    }
+
+    &.meal-plan {
+      &::before {
+        background-image: url("../assets/img/icons/meal-plan.svg");
+      }
+
+      &:hover, &.active {
+        &::before {
+          background-image: url("../assets/img/icons/meal-plan-orange.svg");
+        }
+      }
+    }
+
+    &.activity {
+      &::before {
+        background-image: url("../assets/img/icons/activity.svg");
+      }
+
+      &:hover, &.active {
+        &::before {
+          background-image: url("../assets/img/icons/activity-orange.svg");
+        }
+      }
+    }
+
+    &.set-selection {
+      &::before {
+        background-image: url("../assets/img/icons/set-selection.svg");
+      }
+
+      &:hover, &.active {
+        &::before {
+          background-image: url("../assets/img/icons/set-selection-orange.svg");
+        }
+      }
+    }
+
+    &.approved-sets {
+      &::before {
+        background-image: url("../assets/img/icons/approved-sets.svg");
+      }
+
+      &:hover, &.active {
+        &::before {
+          background-image: url("../assets/img/icons/approved-sets-orange.svg");
+        }
+      }
+    }
+
+    &.statistics-on-sets {
+      &::before {
+        background-image: url("../assets/img/icons/statistics-on-sets.svg");
+      }
+
+      &:hover, &.active {
+        &::before {
+          background-image: url("../assets/img/icons/statistics-on-sets-orange.svg");
+        }
+      }
+    }
+
+    &.macro-nutrients {
+      &::before {
+        background-image: url("../assets/img/icons/macro-nutrients.svg");
+      }
+
+      &:hover, &.active {
+        &::before {
+          background-image: url("../assets/img/icons/macro-nutrients-orange.svg");
+        }
+      }
+    }
+
+    &.micro-nutrients {
+      &::before {
+        background-image: url("../assets/img/icons/micro-nutrients.svg");
+      }
+
+      &:hover, &.active {
+        &::before {
+          background-image: url("../assets/img/icons/micro-nutrients-orange.svg");
+        }
+      }
+    }
+
+    &.nutritional-features {
+      &::before {
+        background-image: url("../assets/img/icons/nutritional-features.svg");
+      }
+
+      &:hover, &.active {
+        &::before {
+          background-image: url("../assets/img/icons/nutritional-features-orange.svg");
+        }
+      }
+    }
+
+    &.excluded-products {
+      &::before {
+        background-image: url("../assets/img/icons/excluded-products.svg");
+      }
+
+      &:hover, &.active {
+        &::before {
+          background-image: url("../assets/img/icons/excluded-products-orange.svg");
+        }
+      }
+    }
+
+    &.statistics-on-period {
+      &::before {
+        background-image: url("../assets/img/icons/statistics-on-sets.svg");
+      }
+
+      &:hover, &.active {
+        &::before {
+          background-image: url("../assets/img/icons/statistics-on-sets-orange.svg");
+        }
+      }
+    }
+  }
+}

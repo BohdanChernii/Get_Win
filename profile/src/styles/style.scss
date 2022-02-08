@@ -1,0 +1,53 @@
+@import "app/variables";
+@import "app/mixins";
+@import "app/animations";
+@import "app/fonts";
+@import "app/null";
+@import "app/scroll-bar";
+@import "app/print";
+
+// ui
+@import "ui/ant";
+@import "ui/ui";
+@import "ui/form";
+@import "ui/spin";
+@import "ui/sider";
+@import "ui/user";
+@import "ui/info-blocks";
+@import "ui/select";
+
+// components
+@import "components/app-banner";
+@import "components/attachment";
+@import "components/authentication";
+@import "components/new-company";
+@import "components/success";
+@import "components/benefits";
+@import "components/other-login-options";
+@import "components/header";
+@import "components/calendar";
+@import "components/table";
+@import "components/modals";
+@import "components/details";
+@import "components/preview";
+@import "components/tooltip";
+
+body {
+  font-family: $fontFamily;
+  letter-spacing: $letterSpacing
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.mail_layout {
+  & .sider {
+    min-width: inherit !important;
+  }
+}

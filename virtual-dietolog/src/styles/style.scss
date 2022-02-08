@@ -1,0 +1,87 @@
+@import "variables";
+@import "mixins";
+@import "fonts";
+$defaultFamily: 'Gilroy', sans-serif;
+@import 'timepicker';
+@import "null";
+
+// ==================================================================================
+
+@import 'datepicker';
+@import 'nouislider';
+@import 'calendar';
+@import 'modals';
+
+@import "ui";
+@import "forms";
+@import "board";
+@import "tippy";
+@import "food-basket";
+
+// ==================================================================================
+
+@import "navigations";
+@import "header";
+@import "set-selections";
+// pages ==================================================================================
+
+@import "personal-information";
+@import "target";
+@import "nutritional-features";
+@import "activity-dashboard-events";
+@import "home";
+
+body {
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  background-color: #fff;
+  line-height: (24 / 16) * 100%;
+  color: #040440;
+  position: relative;
+  &._lock {
+    overflow: hidden;
+  }
+}
+
+.wrapper {
+  width: 100%;
+  min-height: 100vh;
+  background: #fff;
+  display: grid;
+  grid-template-columns: 432px 1fr;
+
+  &._loaded {
+  }
+}
+
+.aside {
+  background-color: #F5F7FD;
+  height: 100%;
+}
+
+.page{
+  padding: 40px;
+  max-width: 1008px;
+}
+
+.content{
+  flex-grow: 1;
+}
+
+.headline-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.react-datepicker-wrapper{
+  width: 100%;
+}
+.weight-info {
+  display: block;
+  margin-top:  24px;
+  font-size: 24px;
+  line-height: 32px;
+}

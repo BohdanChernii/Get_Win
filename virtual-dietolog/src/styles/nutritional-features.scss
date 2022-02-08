@@ -1,0 +1,166 @@
+.nutritional {
+
+  &__list {}
+
+  &__question {
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: $grey2;
+    margin-bottom: 1rem;
+  }
+
+  &__item {
+    position: relative;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 16px rgba(106, 106, 137, 0.175153);
+    border-radius: 10px;
+    padding: 24px;
+    margin-bottom: 8px;
+  }
+
+  &__choose-all {
+    position: absolute;
+    top: 28px;
+    right: 24px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: transparent;
+    color: #E9856B;
+    cursor: pointer;
+  }
+
+  &__body {
+    display: none;
+    padding: 24px 55px 0;
+  }
+}
+
+.category {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  &._active &__arrow {
+    transform: rotate(-180deg);
+  }
+
+  &__name {
+    display: flex;
+    align-items: center;
+  }
+
+  &__arrow {
+    transition: .3s linear all;
+    margin-right: 24px;
+  }
+
+  &__icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+  }
+
+  &__title {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: $grey1;
+  }
+}
+
+.product {
+
+
+  &__checkbox-input {
+    display: none;
+
+    &:checked+.product__checkbox-label::before {
+      border: 2px solid #E9856B;
+      background: #E9856B url('../assets/img/icons/selected.svg') no-repeat center center;
+      background-size: 100%;
+    }
+  }
+
+  &__checkbox-label {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+    font-weight: 600;
+    color: #000;
+
+    &::before {
+      content: '';
+      align-self: flex-start;
+      flex: 0 0 18px;
+      height: 18px;
+      margin-top: 5px;
+      margin-right: 10px;
+      transition: .2s ease-in-out all;
+      border: 2px solid #727486;
+      border-radius: 0.125rem;
+    }
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    column-gap: 55px;
+    row-gap: 16px;
+  }
+}
+
+.form {
+  &__container-flex {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+}
+
+.selected {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-flow: row wrap;
+  margin-bottom: 12px;
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+  }
+  &__list {
+    flex-wrap: wrap;
+  }
+
+  &__button,
+  &__box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    padding: 6px 16px;
+    font-weight: 600;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  &__box {
+    background: rgba(255, 159, 134, 0.2);
+    color: $orange;
+    cursor: pointer;
+
+    img {
+      margin-left: 15px;
+      width: 0.75rem;
+      height: 0.75rem;
+      pointer-events: none;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+### get_user_info
+GET https://prof.world/api/get_user_info/?token=a247e33589ec59fdaf79061d7d9daa4f
+Content-Type: application/x-www-form-urlencoded
+Accept: application/json
+
+### get_all
+
+GET https://prof.world/api/user_all/?globalToken={{globalToken}}
+Content-Type: application/x-www-form-urlencoded
+Accept: application/json
+
+###
+
+### Delet userApi
+POST https://prof.world/api/del_user/?token=41ccd991e61f6d4e3ae984f745dff682
+Content-Type: application/x-www-form-urlencoded
+Accept: application/json
+
+###

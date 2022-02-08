@@ -1,0 +1,6 @@
+
+### GET request with environment variables
+POST https://prof.world/api/del_file/?token=decf0953ee783d807db519f9cc4bb27f&dir=policy&file_name=angl-answers.pdf
+Accept: application/json
+
+### GET request with environment variables

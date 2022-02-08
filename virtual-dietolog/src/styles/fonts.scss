@@ -1,0 +1,7 @@
+//@font-face {
+//  font-family: 'Roboto';
+//  src: url("../assets/fonts/Roboto-Regular.ttf") format('truetype');
+//}
+@include font("Gilroy", "Gilroy-Regular", "500", "normal");
+@include font("Gilroy", "Gilroy-SemiBold", "600", "normal");
+@include font("Avenir Next", "AvenirNextLTPro-Regular", "500", "normal");

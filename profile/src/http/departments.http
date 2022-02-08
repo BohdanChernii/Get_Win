@@ -1,0 +1,7 @@
+### get_list_departments
+GET https://prof.world/api/get_list_departments/?token=33a84c00e939cc5bc0ced0b8b246ab3e
+Accept: application/json
+
+### get_info_department
+GET https://prof.world/api/get_info_department/?token=33a84c00e939cc5bc0ced0b8b246ab3e&id_tl_lists=10
+Accept: application/json

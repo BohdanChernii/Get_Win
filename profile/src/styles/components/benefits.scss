@@ -1,0 +1,27 @@
+@import "../app/mixins";
+
+.benefits {
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    @include adaptive-value('row-gap', 16, 8, 1);
+    @include adaptive-value('column-gap', 5, 2, 1);
+  }
+
+  &__item {
+    color: #ffffff;
+    display: inline-flex;
+    font-size: 14px;
+
+    &:before {
+      background: url('../assets/img/icons/check-select.svg') no-repeat center center;
+      content: '';
+      left: 0;
+      top: 5px;
+      @include adaptive-value('width', 24, 18, 1);
+      @include adaptive-value('height', 24, 18, 1);
+      @include adaptive-value('margin-right', 12, 8, 1);
+    }
+  }
+}

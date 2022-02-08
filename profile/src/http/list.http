@@ -1,0 +1,4 @@
+### add_field_table
+POST https://prof.world/api/add_field_table/?token=614484cb68d6a51ba0e36f9794ee38fc&name=Активность&list=s_personal_qualities
+Content-Type: application/x-www-form-urlencoded
+Accept: application/json

@@ -1,0 +1,13 @@
+### Login
+POST https://prof.world/api/login/?email=ruslan.horyn95@gmail.com&passwd=123
+Content-Type: application/x-www-form-urlencoded
+Accept: application/json
+
+
+### Restration
+POST https://prof.world/api/reg_user/?email=ruslan.horyn95@gmail.com&passwd=123
+Content-Type: application/x-www-form-urlencoded
+Accept: application/json
+
+
+

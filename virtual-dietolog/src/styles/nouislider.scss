@@ -1,0 +1,56 @@
+.noUi-horizontal {
+  margin-top: 40px;
+  height: 4px;
+}
+
+.noUi-horizontal .noUi-handle {
+  position: relative;
+  background: $orange;
+  border-radius: 6px;
+  width: 63px;
+  height: 32px;
+  top: -14px;
+  left: 40px;
+  cursor: pointer;
+  &:after,
+  &:before {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 0;
+    width: 0;
+    background: #E8E7E6;
+  }
+}
+
+.noUi-horizontal .noUi-tooltip {
+  bottom: 49%;
+  left: 35%;
+  color: #fff;
+}
+.noUi-tooltip {
+  position: relative;
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  background: transparent;
+  padding: 0;
+  line-height: 0;
+  text-align: center;
+  white-space: nowrap;
+  &:after {
+    content: 'кг';
+    position: absolute;
+    margin-left: 5px;
+  }
+}
+
+.noUi-target {
+  background: #EBEEF5;
+  border-radius: 29px;
+  border: 1px solid #EBEEF5;
+}
+
+.noUi-handle {
+  box-shadow: none;
+}

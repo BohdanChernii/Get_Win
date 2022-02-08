@@ -1,0 +1,101 @@
+.day {
+
+  &__header {
+    position: relative;
+    background-color: $orange;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    padding: 0 12px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 200ms ease-in-out;
+    cursor: pointer;
+
+    &.active {
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+
+    &.active .day__icon_plus {
+      transform: translateY(-50%) rotate(45deg);
+      border-radius: 50%;
+    }
+  }
+
+  &__name {
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  &__icon_plus {
+    position: absolute;
+    top: 50%;
+    right: 12px;
+    width: 18px;
+    height: 18px;
+    transition: all 200ms ease-in-out;
+    transform: translateY(-50%);
+    pointer-events: none;
+  }
+
+  &__icon_add-product {
+    cursor: pointer;
+  }
+
+  &__body {
+    display: none;
+    background: #FFFFFF;
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.085);
+  }
+
+  &__each-meal {
+    background: #F5F7FD;
+    display: flex;
+    align-items: center;
+    padding: 10px 12px;
+
+  }
+
+  &__icon {
+    width: 18px;
+    height: 18px;
+    margin: 0 12px;
+
+    &:nth-last-child(1) {
+      margin-right: 0;
+    }
+  }
+
+  &__name_each-meal {
+    flex: 1 0 auto;
+    color: #000;
+  }
+
+  &__diet-list {
+    background-color: #F5F7FD;
+    display: grid;
+    gap: 1px;
+  }
+
+  &__diet-item {
+    background-color: #fff;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 42px;
+    grid-template-rows: 42px;
+
+  }
+
+  &__icon_close {
+    width: 18px;
+    height: 18px;
+    margin: 12px;
+  }
+}
+
+
+
+
+

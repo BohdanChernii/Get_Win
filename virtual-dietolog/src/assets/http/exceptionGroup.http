@@ -1,0 +1,17 @@
+###
+POST https://vn.mh.net.ua/public/api/exeption_group_add/
+Content-Type: application/x-www-form-urlencoded
+
+token=eccbc87e4b5ce2fe28308fd9f2a7baf3&name=Тест
+
+
+###
+POST https://vn.mh.net.ua/public/api/exeption_group_edit/
+Content-Type: application/x-www-form-urlencoded
+
+token=eccbc87e4b5ce2fe28308fd9f2a7baf3&id=130&name=Тест_зміни&id_user=3&data=null"
+
+###
+GET https://vn.mh.net.ua/public/api/exeption_group_get/?token=eccbc87e4b5ce2fe28308fd9f2a7baf3
+Accept: application/json
+

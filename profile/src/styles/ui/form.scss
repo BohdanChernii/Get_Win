@@ -1,0 +1,192 @@
+@import "../app/variables";
+
+.form {
+  height: 100%;
+  //padding-bottom: 24px;
+  width: 100%;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  &__body {
+    //margin-bottom: 24px;
+  }
+
+  &__footer {
+
+  }
+
+  &__view-text {
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0;
+  }
+
+  & .add-buttons__icon {
+    height: 40px;
+    width: 40px;
+  }
+
+  & .ant-select-selection-item {
+  }
+
+  &__label {
+    color: #20272e;
+    font-size: 12px !important;
+    font-weight: 600;
+    line-height: 15px;
+    margin: 5px 0;
+
+    &-required:after {
+      color: #ff4d4f;
+      content: '*';
+      display: inline-block;
+      font-size: 14px;
+      line-height: 1;
+      margin-right: 4px;
+      padding-bottom: 8px;
+    }
+  }
+
+  &__container {
+    position: relative;
+    width: 100%;
+  }
+
+  &__dragger {
+    max-height: 50px;
+    transition: all .3s $transition !important;
+
+    &.disabled {
+      cursor: not-allowed !important;
+      opacity: 0.6;
+      pointer-events: none;
+      user-select: none;
+    }
+  }
+
+  &__select-multiple {
+
+    & .ant-select-selection-item-content {
+      &::first-letter {
+        text-transform: uppercase;
+      }
+    }
+
+    & .ant-select-selection-item {
+      background: $colorSecondaryDark !important;
+      border-radius: 20px !important;
+      color: #fff !important;
+
+      &-remove {
+        align-items: center;
+        display: flex !important;
+        justify-content: center;
+      }
+
+      & .select__description {
+        display: none;
+      }
+    }
+  }
+
+  &__select_title {
+    display: block;
+  }
+
+  &__select_disabled {
+    color: $colorGreyDark;
+    display: none;
+    font-size: 12px;
+    font-weight: 500;
+    padding-bottom: 12px;
+    white-space: break-spaces;
+  }
+
+  &__attachment {
+    border-bottom: 1px solid #cbd5e2;
+    padding: 7px 0;
+  }
+
+  &__link {
+    color: $colorPrimaryDark;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 180%;
+    margin: 2px 0;
+
+    &._forgot {
+      bottom: 0;
+      position: absolute;
+      right: 0;
+    }
+  }
+
+  &__input {
+    color: #303842;
+    font-size: 12px !important;
+    height: 40px;
+    max-width: 100%;
+    padding: 12px 16px;
+  }
+
+  &__input-checkbox {
+    align-items: center;
+    display: flex;
+    font-size: 12px !important;
+
+    & span._required::before {
+      color: #ff4d4f;
+      content: '*';
+      font-size: 14px;
+      font-weight: 600;
+      position: absolute;
+      right: 0;
+
+      top: -2px;
+    }
+  }
+
+  &__card {
+    border: 1px dashed #5e6bf6;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    padding: 12px;
+  }
+
+  &__row {
+    align-items: center;
+    display: flex;
+    gap: 24px;
+    width: 100%;
+
+    & .ant-input-group-wrapper {
+      padding: 0;
+
+      & .ant-input-wrapper, input {
+        //min-height: 44px;
+      }
+    }
+
+    &._right {
+      justify-content: flex-end;
+    }
+
+    &._between {
+      justify-content: space-between;
+    }
+  }
+
+  &__item {
+    .ant-form-item-tooltip {
+      position: absolute;
+      right: -15px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+}

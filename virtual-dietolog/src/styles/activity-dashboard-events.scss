@@ -1,0 +1,51 @@
+//.activity-dashboard-events {
+//  display: grid;
+//  grid-gap: 1px;
+//  background-color: #CFD0DD;
+//  box-shadow: 0 0 0 1px #CFD0DD;
+//  overflow: hidden;
+//  border-radius: 6px;
+//  margin-bottom: 40px;
+//}
+//
+//._delete-event {
+//  position: relative;
+//  top: 6px;
+//  height: 10px;
+//  flex-basis: 10px;
+//  margin-right: 12px;
+//  cursor: pointer;
+//}
+//
+//.schedule {
+//  display: grid;
+//  grid-template-columns: 2fr repeat(4, 1fr);
+//  grid-template-rows: auto;
+//  grid-gap: 1px;
+//  background-color: #CFD0DD;
+//
+//  &__title {
+//    font-weight: 700;
+//    font-size: 12px;
+//    line-height: 100%;
+//    padding: 9px 12px;
+//    color: #323339;
+//    background-color: #EBEEF5;
+//  }
+//
+//  &__block {
+//    //cursor: pointer;
+//    &:hover > .schedule__info-title {
+//      background-color: #F5F7FD;
+//    }
+//  }
+//
+//  &__info-title {
+//    display: inline-flex;
+//    font-size: 12px;
+//    padding: 9px 12px;
+//    transition: all .2s linear;
+//    background-color: #FFFFFF;
+//    color: #000;
+//  }
+//}

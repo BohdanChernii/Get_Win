@@ -1,0 +1,9 @@
+@media print {
+  html, body {
+    height: initial !important;
+    overflow: initial !important;
+  }
+  @page {
+    margin: 50px;
+  }
+}

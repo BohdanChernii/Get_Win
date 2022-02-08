@@ -1,0 +1,67 @@
+.login-options {
+  &__title {
+    position: relative;
+    text-align: center;
+    color: $colorGreyMain;
+    font-size: 12px;
+    line-height: 15px;
+    margin: 0 auto 36px;
+    background-color: $colorWhite;
+    max-width: 336px;
+    overflow: hidden;
+    &::after, &::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      width: 100px;
+      height: 1px;
+      background-color: $colorGreyLight;
+    }
+
+    &::after {
+      left: 0;
+      transform: translateX(-50%);
+    }
+
+    &::before {
+      right: 0;
+      transform: translateX(50%);
+    }
+  }
+
+  &__options {
+  }
+
+}
+
+.options {
+  display: flex;
+
+  &__card {
+    margin-right: 16px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid $colorGreyLight;
+    border-radius: 8px;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    width: 100%;
+
+    &:hover {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.16);
+     border-color: transparent;
+    }
+
+    &:nth-last-child(1) {
+      margin: 0;
+    }
+  }
+
+  &__icon {
+    display: block;
+    width: 24px;
+    height: 24px;
+  }
+}

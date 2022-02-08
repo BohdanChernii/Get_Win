@@ -1,0 +1,169 @@
+.welcome {
+  position: relative;
+  width: 100%;
+  max-width: 1440px;
+  min-height: 100vh;
+  background: #E9856B;
+  justify-content: center;
+  margin: auto;
+  flex-wrap: wrap;
+  overflow: hidden;
+
+  &__bullet {
+    background: rgba(245, 163, 135, 0.388625);
+    box-shadow: 0px 1px 13px 7px rgba(233, 133, 107, 0.164254);
+    border-radius: 50%;
+    position: absolute;
+    justify-content: center;
+    z-index: 5;
+  }
+
+  &__bullet-bullet1 {
+    width: 395px;
+    height: 395px;
+    bottom: -28px;
+    left: -106px;
+    z-index: 3;
+  }
+
+  &__bullet-bullet2 {
+    width: 353px;
+    height: 353px;
+    bottom: 190px;
+    left: 150px;
+    z-index: 2;
+  }
+
+  &__bullet-bullet3 {
+    width: 516px;
+    height: 516px;
+    bottom: -200px;
+    left: 100px;
+    z-index: 2;
+  }
+
+  &__bullet-bullet4 {
+    width: 420px;
+    height: 420px;
+    top: -125px;
+    right: 8%;
+    z-index: 2;
+  }
+
+  &__bullet-bullet5 {
+    width: 552px;
+    height: 552px;
+    top: 80px;
+    right: -115px;
+    z-index: 1;
+  }
+}
+#orange {
+  color: $orange;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.application {
+  position: relative;
+  background: #FFFFFF;
+  border-radius: 20px;
+  max-height: 90vh;
+  min-height: 488px;
+  text-align: center;
+  overflow: auto;
+  width: 720px;
+  padding: 64px 0;
+  z-index: 15;
+
+  &__logo {
+    width: 117px;
+    margin-bottom: 20px;
+  }
+
+  &__name {
+    color: #E9856B;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24 / 16 * 100%;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+  }
+
+  &__title {
+    font-size: 32px;
+    line-height: 32 / 16 * 100%;
+  }
+
+  &__subtitle {
+    display: inline-block;
+    max-width: 576px;
+    color: #686A7C;
+    margin: auto auto 24px;
+    span._orange {
+      cursor: pointer;
+      font-weight: 600;
+    }
+  }
+
+  &__btn {
+    display: inline-block;
+    margin: 8px;
+  }
+
+  &__container {
+    margin: auto;
+    text-align: left;
+  }
+
+  &__link {
+    border: 1px solid $orange;
+    border-radius: 6px;
+    position: relative;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20/16*100%;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 40px;
+    color: $orange;
+    padding: 8px 16px 8px 24px;
+    cursor: pointer;
+    &:nth-child(1) {
+      margin-bottom: 8px;
+    }
+
+    &:hover .application__arrow {
+      transform: translate(5px, 0);
+    }
+  }
+
+  &__arrow {
+    width: 12px;
+    transition: all .2s ease-in-out;
+  }
+}
+
+.social {
+  text-align: center;
+  &__subtitle {
+    color: #686A7C;
+    margin-bottom: 16px;
+  }
+
+  &__links {
+    font-weight: 600;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  &__link {
+    cursor: pointer;
+    margin: 0 8px;
+    width: 32px;
+    height: 32px;
+  }
+}
+
+
+

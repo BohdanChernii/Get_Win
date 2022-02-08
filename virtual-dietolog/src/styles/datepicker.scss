@@ -1,0 +1,97 @@
+MuiPickersBasePicker-container > * {
+  font-family: $defaultFamily !important;
+}
+
+.MuiFormControl-root {
+  border-bottom: 1px solid #9EA4AB !important;
+
+  &._focus {
+    border-bottom: 1px solid $orange !important;
+  }
+
+  &._error {
+    border-bottom: 1px solid $red !important;
+  }
+}
+
+.MuiInputBase-root {
+  display: block;
+  font-weight: 600 !important;
+  padding: 0;
+  font-size: 16px;
+  line-height: 24px;
+  color: #323339;
+  background-color: transparent;
+  font-family: $defaultFamily !important;
+  height: 42px;
+}
+
+.MuiInputBase-input {
+  padding: 0 0 !important;
+}
+
+.Mui-disabled {
+  opacity: 0.7 !important;
+}
+
+.MuiInput-underline:after {
+  display: none;
+}
+
+.MuiPickersDay-current {
+  color: inherit !important;
+}
+
+.MuiPickersDay-daySelected {
+ color: #ffffff !important;
+}
+.MuiPickersDay-daySelected:hover {
+  background-color: $orange !important;
+}
+
+.MuiTypography-colorPrimary {
+  color: $orange !important;
+}
+
+.MuiTypography-body1,
+.MuiTypography-body2 {
+  font-family: inherit !important;
+}
+
+.MuiTypography-caption {
+  font-family: inherit !important;
+  font-weight: 600 !important;
+}
+
+.MuiInput-underline:before {
+  display: none;
+}
+
+.MuiTypography-subtitle1 {
+  position: relative;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 35%;
+    right: -10px;
+    transform: rotate(45deg) ;
+    border-bottom:  5px solid #ffffff;
+    border-left:    5px solid transparent;
+  }
+}
+
+.MuiTextField-root {
+  //border-bottom: 1px solid #9EA4AB;
+
+  &._focus {
+    //border-bottom: 1px solid $orange;
+  }
+
+  &._error {
+    //border-bottom: 1px solid $red;
+  }
+}
+.MuiBackdrop-root {
+  background-color: rgba(0, 0, 0, 0.4) !important;
+}

@@ -1,0 +1,131 @@
+.personal-information {
+  &__body {
+    padding-top: 50px;
+  }
+}
+
+.file {
+  position: relative;
+  height: 176px;
+  width: 176px;
+  border-radius: 50%;
+  border: 18px solid $orange;
+  box-shadow: 0 0 0 16px rgba(255, 159, 134, 0.3);
+  margin: auto auto 48px;
+
+  &__box {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+
+  &__preview {
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    bottom: -2px;
+    right: -2px;
+    border-radius: 50%;
+    background-color: $orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 6rem;
+    color: #fff;
+    overflow: hidden;
+    text-transform: uppercase;
+
+    img {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100%;
+    }
+  }
+
+  &__button {
+    position: absolute;
+    width: 37px;
+    height: 37px;
+    bottom: -15px;
+    right: -15px;
+    background-color: $orange;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 50%;
+
+    img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      max-width: 20px;
+      height: auto;
+    }
+  }
+
+  &__input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    font-size: 0;
+    line-height: 0;
+    z-index: 15;
+    cursor: pointer;
+  }
+}
+
+
+.password-box {
+  ._focus .form__subtitle {
+    color: $orange;
+  }
+
+  &__hidden-body {
+    padding-top: 20px;
+    display: none;
+  }
+}
+
+.checkbox-container {
+
+  &__checkbox {
+    display: none;
+  }
+
+  &__checkbox:checked + &__label::before {
+    background-color: #1DB3AD;
+  }
+
+  &__label {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #686A7C;
+    font-size: 12px;
+    pointer-events: none;
+
+    &::before {
+      content: "";
+      width: 15px;
+      height: 15px;
+      background-color: #9EA4AB;
+      border-radius: 50%;
+      margin-right: 8px;
+      background-image: url('../assets/img/icons/selected.svg');
+      background-size: 55%;
+      background-position: center center;
+      background-repeat: no-repeat;
+    }
+  }
+}
+
+

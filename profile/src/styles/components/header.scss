@@ -1,0 +1,14 @@
+.header {
+  padding: 0;
+  &__container {
+    display: flex;
+    //align-items: center;
+    justify-content: space-between;
+  }
+  &__logo {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+  }
+
+}

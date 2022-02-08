@@ -1,0 +1,96 @@
+@import "../app/mixins";
+
+.authentication {
+  position: relative;
+
+  & .ant-tabs-nav-operations {
+    display: none !important;
+  }
+
+  & .ant-tabs-nav {
+    margin-bottom: 64px !important;
+  }
+
+  &__content {
+    height: 100vh;
+    overflow: auto;
+    padding-top: 105px;
+    align-items: center;
+
+    @media (max-height: 768px) {
+      padding-top: 40px;
+    }
+
+  }
+
+  &__sider {
+    flex: 1 1 auto !important;
+    max-width: 650px !important;
+    min-width: 600px !important;
+    width: 100% !important;
+
+    background: linear-gradient(180deg, #8892FF 0%, #6D6BE5 18.75%);
+
+    padding-top: 84px;
+    padding-left: 50px;
+    padding-right: 50px;
+    @media (max-height: 768px) {
+      padding-top: 45px;
+    }
+  }
+
+  &__bg-img {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: auto;
+    @media (max-height: 800px) {
+      width: 95%;
+    }
+    @media (max-height: 780px) {
+      width: 90%;
+    }
+
+    @media (max-height: 760px) {
+      width: 85%;
+    }
+
+    @media (max-height: 740px) {
+      width: 80%;
+    }
+
+    @media (max-height: 720px) {
+      width: 75%;
+    }
+
+    @media (max-height: 700px) {
+      width: 70%;
+    }
+    @media (max-height: 680px) {
+      width: 65%;
+    }
+    @media (max-height: 660px) {
+      width: 60%;
+    }
+
+    @media (max-height: 640px) {
+      display: none;
+    }
+  }
+
+}
+
+.content {
+  background-color: #fff;
+
+  &__container {
+    width: 100%;
+    max-width: 336px;
+
+    & .ant-tabs {
+      overflow: inherit !important;
+    }
+  }
+}

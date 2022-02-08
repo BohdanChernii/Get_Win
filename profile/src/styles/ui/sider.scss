@@ -1,0 +1,35 @@
+.sider {
+  position: relative;
+  min-width: 360px !important;
+
+  &._app-sider {
+    overflow: auto;
+    background: linear-gradient(180deg, #8892ff 0%, #6d6be5 18.75%);
+    padding: 48px 24px;
+  }
+}
+
+.menu {
+  padding-left: 24px;
+  position: relative;
+  flex: 1 0 auto;
+  overflow-x: hidden;
+
+  &__item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 0 !important;
+
+    svg {
+      transition: all 0.3s $transition;
+      width: 20px;
+      height: 20px;
+    }
+
+    span {
+      transition: all 0.3s $transition;
+      padding-left: 12px;
+    }
+  }
+}

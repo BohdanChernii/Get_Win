@@ -1,0 +1,45 @@
+.position-details {
+  //margin-bottom: 8px !important;
+  margin-top: 8px;
+
+  &__item {
+    align-items: center;
+    border: 1px $colorGreyLight dashed;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 16px !important;
+  }
+
+  &__name {
+    color: $textMain;
+    font-size: 12px;
+    font-weight: 500;
+    max-width: 95%;
+    @include hide-world();
+
+    &_wrap {
+      -webkit-line-clamp: 1;
+    }
+  }
+
+  &__length {
+    align-items: center;
+    background-color: $colorSecondaryMain;
+    border-radius: 8px;
+    color: $colorWhite;
+    cursor: pointer;
+    display: flex;
+    font-size: 12px;
+    font-weight: 600;
+    height: 32px;
+    justify-content: center;
+    width: 32px;
+  }
+
+  &__remove {
+    cursor: pointer;
+    height: 16px;
+    width: 16px;
+  }
+}

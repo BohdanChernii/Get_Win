@@ -1,0 +1,221 @@
+{
+  "diet": [
+    {
+      "w0": {
+        "take_foods": [
+          {
+            "id": "1",
+            "take_food": "1",
+            "products": null
+          },
+          {
+            "id": "2",
+            "take_food": "2",
+            "products": "[1,2,3,4,5]"
+          },
+          {
+            "id": "3",
+            "take_food": "3",
+            "products": null
+          },
+          {
+            "id": "4",
+            "take_food": "4",
+            "products": "[1,2,3,4,5]"
+          },
+          {
+            "id": "5",
+            "take_food": "5",
+            "products": null
+          }
+        ]
+      }
+    },
+    {
+      "w1": {
+        "take_foods": [
+          {
+            "id": "1",
+            "take_food": "1",
+            "products": null
+          },
+          {
+            "id": "2",
+            "take_food": "2",
+            "products": "[1,2,3,4,5]"
+          },
+          {
+            "id": "3",
+            "take_food": "3",
+            "products": null
+          },
+          {
+            "id": "4",
+            "take_food": "4",
+            "products": "[1,2,3,4,5]"
+          },
+          {
+            "id": "5",
+            "take_food": "5",
+            "products": null
+          }
+        ]
+      }
+    },
+    {
+      "w2": {
+        "take_foods": [
+          {
+            "id": "1",
+            "take_food": "1",
+            "products": null
+          },
+          {
+            "id": "2",
+            "take_food": "2",
+            "products": "[1,2,3,4,5]"
+          },
+          {
+            "id": "3",
+            "take_food": "3",
+            "products": null
+          },
+          {
+            "id": "4",
+            "take_food": "4",
+            "products": "[1,2,3,4,5]"
+          },
+          {
+            "id": "5",
+            "take_food": "5",
+            "products": null
+          }
+        ]
+      }
+    },
+    {
+      "w3": {
+        "take_foods": [
+          {
+            "id": "1",
+            "take_food": "1",
+            "products": null
+          },
+          {
+            "id": "2",
+            "take_food": "2",
+            "products": "[1,2,3,4,5]"
+          },
+          {
+            "id": "3",
+            "take_food": "3",
+            "products": null
+          },
+          {
+            "id": "4",
+            "take_food": "4",
+            "products": "[1,2,3,4,5]"
+          },
+          {
+            "id": "5",
+            "take_food": "5",
+            "products": null
+          }
+        ]
+      }
+    },
+    {
+      "w4": {
+        "take_foods": [
+          {
+            "id": "1",
+            "take_food": "1",
+            "products": null
+          },
+          {
+            "id": "2",
+            "take_food": "2",
+            "products": "[1,2,3,4,5]"
+          },
+          {
+            "id": "3",
+            "take_food": "3",
+            "products": null
+          },
+          {
+            "id": "4",
+            "take_food": "4",
+            "products": "[1,2,3,4,5]"
+          },
+          {
+            "id": "5",
+            "take_food": "5",
+            "products": null
+          }
+        ]
+      }
+    },
+    {
+      "w5": {
+        "take_foods": [
+          {
+            "id": "1",
+            "take_food": "1",
+            "products": null
+          },
+          {
+            "id": "2",
+            "take_food": "2",
+            "products": "[1,2,3,4,5]"
+          },
+          {
+            "id": "3",
+            "take_food": "3",
+            "products": null
+          },
+          {
+            "id": "4",
+            "take_food": "4",
+            "products": "[1,2,3,4,5]"
+          },
+          {
+            "id": "5",
+            "take_food": "5",
+            "products": null
+          }
+        ]
+      }
+    },
+    {
+      "w6": {
+        "take_foods": [
+          {
+            "id": "1",
+            "take_food": "1",
+            "products": null
+          },
+          {
+            "id": "2",
+            "take_food": "2",
+            "products": "[1,2,3,4,5]"
+          },
+          {
+            "id": "3",
+            "take_food": "3",
+            "products": null
+          },
+          {
+            "id": "4",
+            "take_food": "4",
+            "products": "[1,2,3,4,5]"
+          },
+          {
+            "id": "5",
+            "take_food": "5",
+            "products": null
+          }
+        ]
+      }
+    }
+  ]
+}

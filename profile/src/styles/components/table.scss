@@ -1,0 +1,48 @@
+.app-table {
+  &__title {
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: $textDark;
+  }
+
+  &__block {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__text {
+    height: 24px;
+    width: 24px;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    color: $textMain;
+    transition: all 500ms $transition;
+
+    &.active {
+      background-color: $colorSecondaryDark;
+      color: #fff;
+    }
+  }
+
+  &__remainder {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translateY(-50%);
+    font-weight: 600;
+    font-size: 14px;
+    color: $colorSecondaryDark;
+    transition: all 500ms $transition;
+  }
+}

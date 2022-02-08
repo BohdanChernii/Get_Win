@@ -1,0 +1,15 @@
+GET https://prof.world/api/get_company_deputy/?token=02561202cc074e8f025c5fa81209e671
+Accept: application/json
+
+###
+### token Ruslan 2719f59c3f9f0eca9a49ecc2c4023e3d
+
+### get_company_info
+POST https://prof.world/api/get_company_info/?token=38e20f41eb947ee499f8cf2f9d960c28
+Content-Type: application/x-www-form-urlencoded
+Accept: application/json
+
+### get_company_info
+POST https://prof.world/api/get_lists_create_company/?globalToken=38e20f41eb947ee499f8cf2f9d960c28
+Content-Type: application/x-www-form-urlencoded
+Accept: application/json

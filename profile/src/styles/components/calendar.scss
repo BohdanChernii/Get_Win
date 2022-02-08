@@ -1,0 +1,81 @@
+.calendar {
+  padding: 12px;
+  background: #FFFFFF;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  font-size: 12px;
+  line-height: 20px;
+
+  &__header {
+  }
+
+  &__navigation {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+
+  &__arrow {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+
+  &__month {
+    padding: 0;
+    margin: 0;
+    flex: 1;
+    font-size: 16px;
+    font-weight: 500;
+    color: $textDark;
+    line-height: 32px;
+  }
+
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-auto-rows: 44px;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+
+  }
+
+  &__weeks {
+    color: $colorGreyDark;
+    font-weight: 500;
+  }
+
+  &__body {
+  }
+
+  &__row {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    text-align: center;
+    grid-auto-rows: 44px;
+    align-items: center;
+    justify-items: center;
+  }
+
+  &__day {
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    color: $textMain;
+    cursor: pointer;
+    border-radius: 50px;
+    width: 32px;
+    height: 32px;
+    font-weight: 600;
+    &-today {
+      background-color: $colorPrimaryExtraLight;
+    }
+
+    &.in-prev-month, &.in-next-month {
+      opacity: .2;
+      pointer-events: none;
+    }
+  }
+}

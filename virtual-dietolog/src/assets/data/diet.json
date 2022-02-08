@@ -1,0 +1,221 @@
+{
+  "diet": [
+    {
+      "w0": {
+        "take_foods": [
+          {
+            "id": "1",
+            "take_food": "1",
+            "products": null
+          },
+          {
+            "id": "2",
+            "take_food": "2",
+            "products": "[58, 60, 14, 15, 17, 27]"
+          },
+          {
+            "id": "3",
+            "take_food": "3",
+            "products": "[88, 9]"
+          },
+          {
+            "id": "4",
+            "take_food": "4",
+            "products": "[1,5,9,88]"
+          },
+          {
+            "id": "5",
+            "take_food": "5",
+            "products": "[70, 58, 60]"
+          }
+        ]
+      }
+    },
+    {
+      "w1": {
+        "take_foods": [
+          {
+            "id": "1",
+            "take_food": "1",
+            "products": null
+          },
+          {
+            "id": "2",
+            "take_food": "2",
+            "products": "[58, 60, 14, 15, 17, 27]"
+          },
+          {
+            "id": "3",
+            "take_food": "3",
+            "products": "[88, 9]"
+          },
+          {
+            "id": "4",
+            "take_food": "4",
+            "products": "[1,5,9,88]"
+          },
+          {
+            "id": "5",
+            "take_food": "5",
+            "products": "[70, 58, 60]"
+          }
+        ]
+      }
+    },
+    {
+      "w2": {
+        "take_foods": [
+          {
+            "id": "1",
+            "take_food": "1",
+            "products": "[58, 59, 60]"
+          },
+          {
+            "id": "2",
+            "take_food": "2",
+            "products": "[58, 60, 14, 15, 17, 27]"
+          },
+          {
+            "id": "3",
+            "take_food": "3",
+            "products": "[88, 9]"
+          },
+          {
+            "id": "4",
+            "take_food": "4",
+            "products": "[1,5,9,88]"
+          },
+          {
+            "id": "5",
+            "take_food": "5",
+            "products": "[70, 58, 60]"
+          }
+        ]
+      }
+    },
+    {
+      "w3": {
+        "take_foods": [
+          {
+            "id": "1",
+            "take_food": "1",
+            "products": "[58, 59, 60]"
+          },
+          {
+            "id": "2",
+            "take_food": "2",
+            "products": "[58, 60, 14, 15, 17, 27]"
+          },
+          {
+            "id": "3",
+            "take_food": "3",
+            "products": "[88, 9]"
+          },
+          {
+            "id": "4",
+            "take_food": "4",
+            "products": "[1,5,9,88]"
+          },
+          {
+            "id": "5",
+            "take_food": "5",
+            "products": "[70, 58, 60]"
+          }
+        ]
+      }
+    },
+    {
+      "w4": {
+        "take_foods": [
+          {
+            "id": "1",
+            "take_food": "1",
+            "products": "[58, 59, 60]"
+          },
+          {
+            "id": "2",
+            "take_food": "2",
+            "products": "[58, 60, 14, 15, 17, 27]"
+          },
+          {
+            "id": "3",
+            "take_food": "3",
+            "products": "[88, 9]"
+          },
+          {
+            "id": "4",
+            "take_food": "4",
+            "products": "[1,5,9,88]"
+          },
+          {
+            "id": "5",
+            "take_food": "5",
+            "products": "[70, 58, 60]"
+          }
+        ]
+      }
+    },
+    {
+      "w5": {
+        "take_foods": [
+          {
+            "id": "1",
+            "take_food": "1",
+            "products": "[58, 59, 60]"
+          },
+          {
+            "id": "2",
+            "take_food": "2",
+            "products": "[58, 60, 14, 15, 17, 27]"
+          },
+          {
+            "id": "3",
+            "take_food": "3",
+            "products": "[88, 9]"
+          },
+          {
+            "id": "4",
+            "take_food": "4",
+            "products": "[1,5,9,88]"
+          },
+          {
+            "id": "5",
+            "take_food": "5",
+            "products": "[70, 58, 60]"
+          }
+        ]
+      }
+    },
+    {
+      "w6": {
+        "take_foods": [
+          {
+            "id": "1",
+            "take_food": "1",
+            "products": "[58, 59, 60]"
+          },
+          {
+            "id": "2",
+            "take_food": "2",
+            "products": "[58, 60, 14, 15, 17, 27]"
+          },
+          {
+            "id": "3",
+            "take_food": "3",
+            "products": "[88, 9]"
+          },
+          {
+            "id": "4",
+            "take_food": "4",
+            "products": "[1,5,9,88]"
+          },
+          {
+            "id": "5",
+            "take_food": "5",
+            "products": "[70, 58, 60]"
+          }
+        ]
+      }
+    }
+  ]
+}

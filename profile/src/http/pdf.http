@@ -1,0 +1,5 @@
+GET https://dev-ds.prof.world/ds-tests.php/?html=html
+Accept: application/pdf
+Content-Type: text/html
+
+###
